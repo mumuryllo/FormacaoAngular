@@ -1,0 +1,43 @@
+- instalar o Angular
+
+npm install -g @angular/cli@latest
+ng --version
+
+- Criar o Projeto
+ng new nome do projeto
+- Servidor do Angular
+ng serve
+
+- Criando Módulos
+
+ng g module calculadora (exemplo)
+
+- Criando components
+ng g component calculadora
+
+- Criando Service
+
+ ng g service calculadora/services/calculadora
+
+- iniciando servidor de teste
+ng test
+
+- colocando bootstrap no Angular
+
+ no arquivo angular.json coloque
+
+  "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+e depois insira o comando
+ npm install --save bootstrap@3
+
+- Criando Diretivas no Angular
+ng g directive tarefas/shared/tarefa-concluida
+- Diretivas geram atributos html
+- Serve para operações especificas do componente
+
+Criando pipes
+pipe- Formatação de valores no Angular como data, cep, cpf, etc.
+ng g pipe conversor/pipes/data-br

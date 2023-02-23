@@ -1,0 +1,1 @@
+@Injectable - é uma classe que consegue prover pra outras classes de forma automática e informar que o componente necessita ultilizar o serviço

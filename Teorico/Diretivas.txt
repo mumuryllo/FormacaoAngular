@@ -1,0 +1,11 @@
+Diretivas são classes que adicionam comportamentos adicionais aos seus aplicativos Angular
+Com as diretivas gerenciamos formulários listas e estilos que os usuarios veem.
+
+
+ngif - Posso estabelecer condições e posso acessar e tirar esse valor
+
+ngFor - percorre uma lista
+
+ngModel - deixa um valor salvo no input
+
+ng-template - elemento html, que encapsula dados antes da dom carregar
